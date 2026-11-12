@@ -1,0 +1,117 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  color: #10001f;
+  background-color: #f9f9f9;
+}
+
+/* Header */
+header {
+  padding: 20px;
+  background: linear-gradient(238deg, #EEAECA, #94BBE9 );
+  color: #fafafa;
+  text-align: center;
+}
+
+header img {
+  width: 120px;
+  border-radius: 10px;
+}
+
+header h1 {
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+header p {
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+header nav ul li {
+  display: inline;
+  margin-right: 15px;
+}
+
+header nav ul li a {
+  color: #fafafa;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Seção */
+section {
+  padding: 20px;
+  margin: 10px auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+}
+
+section h2 {
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+section p {
+  margin-bottom: 10px;
+}
+
+section ul li {
+  display: inline;
+  margin-right: 30px;
+  padding: 5px;
+  margin: 15px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px #dcb6ff;
+}
+
+section ul li::before {
+  content: "¨";
+  font-weight: bold;
+}
+
+/* Seção */
+article {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+article a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #10001f;
+}
+article a:hover {
+  color: #94BBE9;
+}
+
+/* Footer */
+
+footer {
+  color: #838285;
+  text-align: center;
+  margin-top: 5px;
+  line-height: 2.5;
+}
+
+footer a {
+  text-decoration: none;
+  color: #22053d;
+  border: 3px solid #a1f1ff;
+  padding: 5px 16px;
+  border-radius: 5px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
